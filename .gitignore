@@ -2,3 +2,8 @@
 out
 build/*
 !./build/.gitkeep
+/Debug
+/x64
+/.vs
+/MultiTool/Debug
+/MultiTool/x64
