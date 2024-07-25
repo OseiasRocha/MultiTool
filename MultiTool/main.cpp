@@ -176,8 +176,8 @@ int main(int, char**)
                 {
 
                 }
-                ImGui::MenuItem("Save...", nullptr, nullptr);
-                ImGui::MenuItem("Save as", nullptr, nullptr);
+                ImGui::MenuItem("Save...");
+                ImGui::MenuItem("Save as");
                 ImGui::EndMenu();
             }
             ImGui::EndMainMenuBar();
@@ -186,13 +186,13 @@ int main(int, char**)
         ImGui::BeginTabBar("Tabs");
         if (ImGui::BeginTabItem("FTP Server"))
         {
-            // startar serviço de FTP
+            // startar serviï¿½o de FTP
             ImGui::Text("FTP Server");
             ImGui::EndTabItem();
         }
         else
         {
-            // matar seviço de FTP
+            // matar seviï¿½o de FTP
         }
 
 
@@ -206,7 +206,7 @@ int main(int, char**)
         else
         {
             if (ftpClientStarted) {
-                // fechar conexão com o servidor FTP
+                // fechar conexï¿½o com o servidor FTP
                 ImGui::OpenPopup("clearingFTPClient");
                 if (ImGui::BeginPopupModal("clearingFTPClient"))
                 {
