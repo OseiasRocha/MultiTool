@@ -186,13 +186,13 @@ int main(int, char**)
         ImGui::BeginTabBar("Tabs");
         if (ImGui::BeginTabItem("FTP Server"))
         {
-            // startar servi�o de FTP
+            // startar serviço de FTP
             ImGui::Text("FTP Server");
             ImGui::EndTabItem();
         }
         else
         {
-            // matar sevi�o de FTP
+            // matar serviço de FTP
         }
 
 
